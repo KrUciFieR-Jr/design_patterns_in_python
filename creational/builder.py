@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 
 @dataclass
+# @dataclass(frozen=True) # To make data immutability
 class Pizza:
     size: str = None  # Corrected type annotation to str
     crust: str = None  # Corrected type annotation to str
